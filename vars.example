@@ -1,0 +1,7 @@
+# Provide the FQDN and IP for the Kube master and node
+# (just change NODE_* and rerun create-node.sh for additional nodes)
+
+export APISERVER_NAME=kubemaster.example.com
+export APISERVER_IP=192.168.0.10
+export NODE_NAME=kubenode.example.com
+export NODE_IP=192.168.0.11
